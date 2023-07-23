@@ -1,49 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class RippleEffect : MonoBehaviour
 {
-    private XRSimpleInteractable interactable; // reference to the XRBaseInteractable component
+    public GameObject rippleEffectPrefab;
 
-    // This function is called when the ray interactor begins hovering over the object
-    public void OnHoverEntered(HoverEnterEventArgs args)
-    {
-        Debug.Log("Hover started on " + gameObject.name);
-    }
+    private XRSimpleInteractable interactable;
 
-    // This function is called when the ray interactor stops hovering over the object
-    public void OnHoverExited(HoverExitEventArgs args)
+    private void Awake()
     {
-        Debug.Log("Hover ended on " + gameObject.name);
-    }
-
-    private void OnEnable()
-    {
-        // Get the interactable component
         interactable = GetComponent<XRSimpleInteractable>();
 
-        if (interactable != null)
-        {
-            Debug.Log("Interactable component found on " + gameObject.name);
-            // Subscribe to its hover events
-            interactable.hoverEntered.AddListener(OnHoverEntered);
-            interactable.hoverExited.AddListener(OnHoverExited);
-        }
-        else
-        {
-            Debug.Log("Interactable component NOT found on " + gameObject.name);
-        }
+        // Add listeners for hover events
+        interactable.hoverEntered.AddListener(HoverEntered);
+        interactable.hoverExited.AddListener(HoverExited);
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
-        if (interactable != null)
-        {
-            // Unsubscribe from the hover events when the script is disabled
-            interactable.hoverEntered.RemoveListener(OnHoverEntered);
-            interactable.hoverExited.RemoveListener(OnHoverExited);
-        }
+        // Remove listeners for hover events
+        interactable.hoverEntered.RemoveListener(HoverEntered);
+        interactable.hoverExited.RemoveListener(HoverExited);
+    }
+
+    private void HoverEntered(HoverEnterEventArgs args)
+    {
+        Debug.Log("Hover started on " + gameObject.name);
+
+        // Get the hit point from the interactor's attach point
+        Vector3 hitPoint = args.interactorObject.transform.position;
+
+        // Instantiate a ripple effect at the hit point
+        Instantiate(rippleEffectPrefab, hitPoint, Quaternion.identity);
+    }
+
+    private void HoverExited(HoverExitEventArgs args)
+    {
+        Debug.Log("Hover ended on " + gameObject.name);
     }
 }
