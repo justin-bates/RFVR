@@ -61,6 +61,7 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
         if (higherHand != null)
         {
+            Debug.Log("higherHand found");
             if (higherHand.isLeft)
             {
                 Debug.Log("The left hand is higher.");
