@@ -305,7 +305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonImage: {fileID: 321804499}
-  buttonCanvas: {fileID: 1904967589}
   startColor: {r: 1, g: 1, b: 1, a: 1}
   endColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   hoverTime: 3

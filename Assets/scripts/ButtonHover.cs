@@ -7,7 +7,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public Image buttonImage; // The Image component of the button
-    public Canvas buttonCanvas; //Canvas holding image
     public Color startColor = Color.white; // The color when not being hovered over
     public Color endColor = Color.gray; // The color when fully hovered over
     public float hoverTime = 3.0f; // Time in seconds to fully change color
@@ -35,8 +34,7 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                 // Start the game
                 gameStarted = true;
                 Debug.Log("start");
-                buttonImage.gameObject.SetActive(false); // hide the button 
-                buttonCanvas.gameObject.SetActive(false); // hide the canvas
+                buttonImage.gameObject.SetActive(false); // hide the button (remember to hide canvas also)
 
             }
         }
@@ -55,22 +53,6 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         //Debug.Log("Hovering over: " + hoverHand.name);          
 
 
-        //var xrRayInteractor = eventData.pointerEnter.GetComponentInParent<XRRayInteractor>();
-        var higherHand = HandIdentity.GetHigherHand();
-
-
-        if (higherHand != null)
-        {
-            Debug.Log("higherHand found");
-            if (higherHand.isLeft)
-            {
-                Debug.Log("The left hand is higher.");
-            }
-            else
-            {
-                Debug.Log("The right hand is higher.");
-            }
-        }
 
 
     }
