@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Torus.fbx.meta
 guid: f077c919501a44778a0c2edb6eb1a54a
 ModelImporter:
   serializedVersion: 20300
+========
+guid: 48987a10fe1e6c44baf1e928b441835b
+ModelImporter:
+  serializedVersion: 22200
+>>>>>>>> Stashed changes:Assets/Animation/Blender Blocking Animation/Act 1 Animation/Act1Scene2Blocking.fbx.meta
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -14,6 +20,10 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+<<<<<<<< Updated upstream:Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Torus.fbx.meta
+========
+    removeConstantScaleCurves: 0
+>>>>>>>> Stashed changes:Assets/Animation/Blender Blocking Animation/Act 1 Animation/Act1Scene2Blocking.fbx.meta
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -39,6 +49,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -64,6 +75,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -96,7 +108,12 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+<<<<<<<< Updated upstream:Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Torus.fbx.meta
   remapMaterialsIfMaterialImportModeIsNone: 1
+========
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+>>>>>>>> Stashed changes:Assets/Animation/Blender Blocking Animation/Act 1 Animation/Act1Scene2Blocking.fbx.meta
   additionalBone: 0
   userData: 
   assetBundleName: 
