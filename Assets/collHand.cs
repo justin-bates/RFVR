@@ -26,6 +26,6 @@ public class collHand : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collision with" + other.gameObject.name);w
+        Debug.Log("collision with" + other.gameObject.name);
     }
 }
