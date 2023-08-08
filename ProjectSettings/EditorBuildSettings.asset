@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Justin's Assets Folder/Justin's Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Justin's Assets Folder/Justin's Scenes/RFVR_StartScene.unity
+    guid: 84f323cab60a7f644bf69f2c0c70c182
   - enabled: 1
     path: Assets/KPs ArtAssets/KP's Scenes/Act 1 Scene.unity
     guid: 08fe012ca8a9e0045a189cc55cdd6dc6
