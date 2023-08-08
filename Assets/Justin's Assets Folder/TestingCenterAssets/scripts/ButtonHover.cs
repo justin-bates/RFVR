@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
+
 
 
 public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -34,6 +36,8 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                 // Start the game
                 gameStarted = true;
                 Debug.Log("start");
+                SceneManager.LoadScene("Act 1 Scene", LoadSceneMode.Single);
+
                 buttonImage.gameObject.SetActive(false); // hide the button (remember to hide canvas also)
 
             }
