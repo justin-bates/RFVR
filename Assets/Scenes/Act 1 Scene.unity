@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &94752989
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +178,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Art_Assets
 --- !u!1 &173721378
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +224,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &213870908
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +333,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Art_Assets
 --- !u!1 &309632813
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +367,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &336344749
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +902,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Art_Assets
 --- !u!1 &468198058
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e5976b3e65996c49865237b1be31b08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &601495591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,6 +3850,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21274670580985638}
   m_Mesh: {fileID: -7767413975963498343, guid: 1a31cda87dbc44a41a570a82b2a694e1, type: 3}
+=======
+>>>>>>> Art_Assets
 --- !u!23 &4689308901277765027
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3882,6 +3894,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
 --- !u!224 &4965449976711672621
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4226,6 +4239,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+>>>>>>> Art_Assets
 --- !u!4 &5861691399373780684
 Transform:
   m_ObjectHideFlags: 0
@@ -4241,6 +4256,7 @@ Transform:
   m_Father: {fileID: 309632814}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &6062674787473201145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4536,6 +4552,87 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747436064760668084}
   m_Mesh: {fileID: 7211263584692950681, guid: 73864a675cacdae45a2f619efacad23b, type: 3}
+=======
+--- !u!1001 &6304226319994872338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6304226319835363056, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[13].value
+      value: 
+      objectReference: {fileID: 468198058}
+    - target: {fileID: 6304226319835363056, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[34].value
+      value: 
+      objectReference: {fileID: 468198058}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363057, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304226319835363059, guid: a1adc17a456e4c3469e597338cdc353d,
+        type: 3}
+      propertyPath: m_Name
+      value: Act 1 Animation Gameobjects + Timeline
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a1adc17a456e4c3469e597338cdc353d, type: 3}
+>>>>>>> Art_Assets
 --- !u!1 &6490595164888935542
 GameObject:
   m_ObjectHideFlags: 0
@@ -4554,6 +4651,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!20 &6497030427169179602
 Camera:
   m_ObjectHideFlags: 0
@@ -4838,6 +4936,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> Art_Assets
 --- !u!33 &7419454780800366953
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4846,6 +4946,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6490595164888935542}
   m_Mesh: {fileID: -7461456922663224302, guid: 3ec43f58d108379448fd1d11bb4f1a23, type: 3}
+<<<<<<< HEAD
 --- !u!1 &7499411565579818711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5310,3 +5411,5 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> Art_Assets
