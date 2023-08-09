@@ -16,6 +16,7 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     private GameObject hoverHand; // The hand that is currently hovering over the button
     private float hoverProgress;
     private bool gameStarted; // Flag to check if the game has started
+    public GameObject MirroredHands;
 
     
 
@@ -36,10 +37,9 @@ public class ButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                 // Start the game
                 gameStarted = true;
                 Debug.Log("start");
-                SceneManager.LoadScene("Act 1 Scene", LoadSceneMode.Single);
-
+                //SceneManager.LoadScene("Act 1 Scene", LoadSceneMode.Single);
                 buttonImage.gameObject.SetActive(false); // hide the button (remember to hide canvas also)
-
+                MirroredHands.SetActive(true);
             }
         }
         else
